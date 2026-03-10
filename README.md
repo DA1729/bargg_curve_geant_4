@@ -35,6 +35,8 @@ Once the session starts, run particles using:
 
 The simulation generates the Bragg curve.
 
+![Bragg Curve in Argon Gas](bragg_curve.png)
+
 ### Generating Plots
 A Python script is provided to automate running the simulation and plotting the results.
 ```bash
