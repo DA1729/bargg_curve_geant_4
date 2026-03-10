@@ -4,7 +4,6 @@ Simulation of Bragg curve (energy deposition vs depth) in Argon gas using Geant4
 
 ## Building the Project
 
-Ensure you have Geant4 installed and sourced.
 
 ```bash
 mkdir -p build
@@ -44,7 +43,7 @@ python3 plot_results.py
 ```
 
 ## Project Structure
-- `src/`, `include/`: Simulation source code (snake_case convention).
+- `src/`, `include/`: Simulation source code
 - `run1.mac`: Macro for simulation run.
 - `init_vis.mac`, `vis.mac`: Visualization configuration.
 - `plot_results.py`: Data analysis and plotting script.
